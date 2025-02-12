@@ -1,0 +1,37 @@
+{
+	"items": [
+	{
+		"name": "MCSH",
+		"items": [
+		{
+			"name": "Start",
+			"action": "./bin/kterm/kterm",
+			"exitmenu": false
+		},
+		{
+			"name": "MCSH Tools",
+			"items": [
+			{
+				"name": "Install",
+				"if": "\"/usr/bin/mcsh\" -f!",
+				"priority": 998,
+				"exitmenu": false,
+				"refresh": true,
+				"action": "./bin/mcsh --install"
+			},
+			{
+				"name": "Uninstall",
+				"priority": 999,
+				"action": "./bin/kterm/kterm -e 'mcsh --uninstall'"
+			},
+			{
+				"name": "1.8.9",
+				"priority": 2,
+				"action": "./bin/kterm/kterm -e 'mcsh -s 189'"
+			}
+			]
+		}
+		]
+	}
+	]
+}

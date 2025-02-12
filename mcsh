@@ -1,0 +1,244 @@
+#!/bin/bash
+#MCSH for Kindle by Suda_Baka
+
+EXTION=/mnt/us/extensions/mcsh
+SWAP=/mnt/base-us/extensions/mcsh
+
+if [ ! -f ${SWAP}/bin/swapfile ]; then
+	echo [-]Missing swapfile.
+	echo Set swapfile size.
+	echo '1~80(M)     TO SMALL.'
+	echo '81~160(M)   THE BEST!SELECT IT PLZ!'
+	echo '161~240(M)  MAYBE IT IS GOOD.'
+	echo '>240(M)     TOO LARGE.DO NOT ADVICE.'
+	echo "If you don't know how to choose,enter "130""
+	echo '**PLZ ENTER POSITIVE INGETER**'
+	read -p 'Enter the size of swapfile:' size
+	if expr "${size}" + 1 >/dev/null 2>&1; then
+		echo '[+]Creating.Please wait for a moment...'
+		dd if=/dev/zero of=${SWAP}/bin/swapfile bs=1M count=${size}
+		mkswap ${SWAP}/bin/swapfile
+	else
+		echo [x]Unknown enrty.
+	fi
+fi
+
+icon()
+{
+	echo "__________________________________"
+	echo " __    __   _____   _____  _    _ "
+	echo "|  \  /  | / ____| / ____|| |  | |"
+	echo "|   \/   || |     | |__   | |__| |"
+	echo "| |\  /| || |      \___ \ |  __  |"
+	echo "| | \/ | || |____  ____) || |  | |"
+	echo "|_|    |_| \_____||_____/ |_|  |_|"
+	echo "__________________________________"
+}
+
+usage()
+{
+	echo -e "MCSH v1.3\n\n"
+	echo -e "Usage: mcsh [OPTIONS] [SERVER_NAME]\n"
+	echo -e "Create, manage and run Minecraft servers\n"
+	echo OPTIONS:
+	echo '-c                 Create a new server'
+	echo '-l                 Get list of your server'
+	echo '-e <SERVER_NAME>   Edit your server'
+	echo '-s <SERVER_NAME>   Start your server'
+	echo '-r <SERVER_NAME>   Remove your server'
+	echo '-v                 Get version of MCSH'
+	echo '-h                 Show this message'
+	echo '--ip               View your IP adress'
+	echo -e "--reswap           Reset swapfile\n"
+}
+
+bag(){
+	clear
+	echo '       EDIT MODE'
+	echo '—————————————————————————'
+}
+
+if [[ "${1}" = "--help" || "${1}" = "-h" ]]; then
+	usage
+
+elif [[ "${1}" = "-v" || "${1}" = "-version" ]]; then
+	icon
+	echo 'v1.3(2025.2.5)'
+
+elif [[ "${1}" = "-l" || "${1}" = "--list" ]]; then
+	echo '      SERVER LIST'
+	echo '—————————————————————————'
+	ls ${EXTION}/bin/server
+
+elif [[ "${1}" = "-s" || "${1}" = "--start" ]]; then
+	if [ -d ${EXTION}/bin/server/${2} ]; then
+		echo Please wait.
+		icon
+		cd ${EXTION}/bin/server/${2}
+		./start.sh
+	else
+		echo [x]Server not found.
+	fi
+
+elif [ "${1}" = -r ]; then
+	read -p "Are you sure to remove "${2}"?[Y/N]" yn
+	case $yn in
+		y | Y)
+		rm -rf ${EXTION}/bin/server/${2}
+		echo [-]Server removed. ;;
+		n | N)
+		echo [=]Stop. ;;
+		*)
+		echo [x]Unknown option. ;;
+	esac
+
+elif [ "${1}" = --ip ]; then
+	echo '       WLAN IP'
+	echo '—————————————————————————'
+	echo "IP:`ifconfig wlan0 | grep 'inet addr' | awk -F '[ :]' '{print $13}'`"
+
+elif [ "${1}" = "-reswap" ]; then
+	rm ${SWAP}/bin/swapfile
+	echo [-]Swapfile has been reset.
+	sleep 2.5
+	clear
+	icon
+	echo 'Enter "mcsh" to continue.'
+
+elif [[ "${1}" = "-e" || "${1}" = "--edit" ]]; then
+	if [ -d ${EXTION}/bin/server/${2} ]; then
+		bag
+		cd ${EXTION}/bin/server/${2}
+		echo -Server:${2}
+		echo -MAIN
+		echo '—————————————————————————'
+		echo '1|Enabled'
+		echo '2|Disabled'
+		read -p Select: smt
+		case ${smt} in
+			1)
+			i=$(grep -n 'ture' server.propertries | sort -n)
+			i=${i//:/>}
+			echo "${i//=true/}"
+			echo Select: line
+			
+			
+		esac
+	else
+		echo [x]Server not fount.
+	fi
+
+elif [ "${1}" = "-c" ]; then
+	clear
+	read -p 'Server name:' sn
+	echo '      SELECT VERSION'
+	echo '—————————————————————————'
+	echo ' 1|1.5         21|1.8.4
+	 2|1.5.1       22|1.8.5
+	 3|1.5.2       23|1.8.6
+	 4|1.6         24|1.8.7
+	 5|1.6.1       25|1.8.8
+	 6|1.6.2       26|1.8.9
+	 7|1.6.3       27|1.9
+	 8|1.6.4       28|1.9.1
+	 9|1.7.2       29|1.9.2
+	10|1.7.3       30|1.9.3
+	11|1.7.4       31|1.9.4
+	12|1.7.5       32|1.10
+	13|1.7.6       33|1.10.1
+	14|1.7.7       34|1.10.2
+	15|1.7.8       35|1.11
+	16|1.7.9       36|1.11.1
+	17|1.8         37|1.11.2
+	18|1.8.1       38|1.12
+	19|1.8.2       39|1.12.1
+	20|1.8.3       40|1.12.2'
+	read -p 'Select:' vs
+	if expr "${vs}" + 1 >/dev/null 2>&1; then
+		n=`expr ${vs} \* 2 + 1`
+		if [[ "${n}" -le 3 || "${n}" -ge 81 ]]; then
+			echo [x]Unknown entry.
+		else
+			mkdir ${EXTION}/bin/server/${sn}
+			cd ${EXTION}/bin/server/${sn}
+			echo [+]Downloading files.
+			if [ ${n} -ge 77 ]; then
+				wget https://launcher.mojang.com/v1/objects/02937d122c86ce73319ef9975b58896fc1b491d1/log4j2_112-116.xml
+				log_file=112-116
+			elif [ ${n} -lt 77 ]; then
+				wget https://launcher.mojang.com/v1/objects/dd2b723346a8dcd48e7f4d245f6bf09e98db9696/log4j2_17-111.xml
+				log_file=17-111
+			fi
+			wget $(sed -n ${n}p ${EXTION}/bin/sul.list)
+		echo [+]Done.
+		echo '#Server Launcher
+			echo Stopping useless tasks... 
+			sleep 1
+			stop tmd
+			stop webreader
+			stop cmd
+			stop demd
+			stop dpmd
+			stop appmgrd
+			stop perfd
+			stop stackdumpd
+			stop kb
+			stop contentpackd
+			stop pillow
+			stop todo
+			stop rcm
+			stop otav3
+			stop otaupd
+			stop dynconfig
+			stop lipcd
+			stop archive
+			sleep 1
+			sysctl -w net.ipv4.ip_forward=1
+			port=$(grep 'port' server.properties)
+			iptables -A INPUT -i wlan0 -p tcp -m tcp --dport ${port##*=} -j ACCEPT
+			IP=$(ifconfig wlan0 | grep 'inet addr' | awk -F '[ :]' '{print $13}')
+			iptables -A FORWARD -p tcp -d ${IP} --dport 25565 -j ACCEPT
+			echo IP:${IP}
+			echo Port opened:"${port##*=}"
+			swapon '${SWAP}'/bin/swapfile
+			lipc-set-prop -i com.lab126.powerd preventScreenSaver 1
+			echo Your server is starting.
+			echo Your server will start in 10s.
+			'${EXTION}'/lib/jre/bin/java -jar -server -Xss1024k -Dlog4j.configurationFile=log4j2_'${log_file}'.xml server.jar nogui
+			echo Your server has stopped.Reboot your kindle now
+			sleep 8
+			reboot' > start.sh
+			echo -e '#MOJANG EULA\neula=true' > eula.txt
+		fi
+	else
+			echo [x]Unknown entry.
+			sleep 1.5
+		fi
+
+elif [ "${1}" = "--install" ]; then
+	mntroot rw
+	mv ${EXTION}/bin/mcsh /usr/bin
+	chmod +x /usr/bin/mcsh
+	mntroot ro
+
+elif [ "${1}" = "--unstall" ]; then
+	read -p "Enter 'Y' to uninstall MCSH:" ao
+	case ${ao} in
+		y | Y)
+		mntroot rw
+		rm /usr/bin/mcsh
+		rm -rf /mnt/us/extensions/mcsh
+		mntroot ro
+		exit ;;
+		*)
+		exit ;;
+	esac
+
+else
+	icon
+	echo 'Enter"mcsh -h"for more imformation.'
+fi
+#sysctl -w net.ipv4.ip_forward=1
+#sysctl -p
+#iptables -t nat -A PREROUTING -p tcp --dport 25565 -j DNAT --to-destination ${ip}
+#iptables -A FORWARD -p tcp -d 192.168.0.104 --dport 25565 -j ACCEPT

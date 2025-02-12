@@ -1,0 +1,394 @@
+[09:00:03] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[09:00:03] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[09:00:03] [Server thread/INFO]: Loading properties
+[09:00:04] [Server thread/INFO]: Default game type: SURVIVAL
+[09:00:04] [Server thread/INFO]: Generating keypair
+[09:00:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:00:06] [Server thread/INFO]: Using default channel type
+[09:00:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:00:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:00:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:00:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:00:07] [Server thread/INFO]: Preparing level "world"
+[09:00:07] [Server thread/INFO]: Preparing start region for level 0
+[09:00:09] [Server thread/INFO]: Preparing spawn area: 0%
+[09:00:10] [Server thread/INFO]: Preparing spawn area: 10%
+[09:00:11] [Server thread/INFO]: Preparing spawn area: 21%
+[09:00:12] [Server thread/INFO]: Preparing spawn area: 31%
+[09:00:13] [Server thread/INFO]: Preparing spawn area: 33%
+[09:00:14] [Server thread/INFO]: Preparing spawn area: 44%
+[09:00:15] [Server thread/INFO]: Preparing spawn area: 46%
+[09:00:16] [Server thread/INFO]: Preparing spawn area: 54%
+[09:00:17] [Server thread/INFO]: Preparing spawn area: 56%
+[09:00:22] [Server thread/INFO]: Preparing spawn area: 60%
+[09:00:23] [Server thread/INFO]: Preparing spawn area: 60%
+[09:00:24] [Server thread/INFO]: Preparing spawn area: 64%
+[09:00:26] [Server thread/INFO]: Preparing spawn area: 66%
+[09:00:34] [Server thread/INFO]: Preparing spawn area: 66%
+[09:00:47] [Server thread/INFO]: Preparing spawn area: 66%
+[09:00:48] [Server thread/INFO]: Preparing spawn area: 71%
+[09:00:49] [Server thread/INFO]: Preparing spawn area: 75%
+[09:01:00] [Server thread/INFO]: Preparing spawn area: 78%
+[09:01:06] [Server thread/INFO]: Preparing spawn area: 78%
+[09:01:07] [Server thread/INFO]: Preparing spawn area: 86%
+[09:01:07] [Server thread/INFO]: Done (60.945s)! For help, type "help" or "?"
+[09:01:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2658ms behind, skipping 53 tick(s)
+[09:01:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2522ms behind, skipping 50 tick(s)
+[09:25:16] [Server thread/INFO]: Suda_Baka[/192.168.0.102:60062] logged in with entity id 155 at (-125.9377081722166, 69.0, 229.83251056195192)
+[09:25:16] [Server thread/INFO]: Suda_Baka joined the game
+[09:25:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10572ms behind, skipping 211 tick(s)
+[09:26:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 18872ms behind, skipping 377 tick(s)
+[09:26:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2260ms behind, skipping 45 tick(s)
+[09:26:09] [Server thread/INFO]: Suda_Baka lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[09:26:09] [Server thread/INFO]: Suda_Baka left the game
+[09:26:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2096ms behind, skipping 41 tick(s)
+[09:27:49] [Server thread/INFO]: Suda_Baka[/192.168.0.102:53216] logged in with entity id 1519 at (-125.49252161300498, 69.0, 231.46713214554637)
+[09:27:49] [Server thread/INFO]: Suda_Baka joined the game
+[09:27:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2375ms behind, skipping 47 tick(s)
+[09:28:04] [Server thread/INFO]: Suda_Baka lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Connection reset by peer], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[09:28:04] [Server thread/INFO]: Suda_Baka left the game
+[10:10:57] [Server thread/INFO]: Killed Squid
+[10:10:57] [Server thread/INFO]: Killed Squid
+[10:10:57] [Server thread/INFO]: Killed Squid
+[10:10:57] [Server thread/INFO]: Killed Squid
+[10:10:57] [Server thread/INFO]: Killed Pig
+[10:10:57] [Server thread/INFO]: Killed Chicken
+[10:10:57] [Server thread/INFO]: Killed Bat
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Skeleton
+[10:10:57] [Server thread/INFO]: Killed Bat
+[10:10:57] [Server thread/INFO]: Killed Skeleton
+[10:10:57] [Server thread/INFO]: Killed Skeleton
+[10:10:57] [Server thread/INFO]: Killed Creeper
+[10:10:57] [Server thread/INFO]: Killed Skeleton
+[10:10:57] [Server thread/INFO]: Killed Skeleton
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Creeper
+[10:10:57] [Server thread/INFO]: Killed Spider
+[10:10:57] [Server thread/INFO]: Killed Spider
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Skeleton
+[10:10:57] [Server thread/INFO]: Killed Skeleton
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Bat
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Skeleton
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Zombie
+[10:10:57] [Server thread/INFO]: Killed Creeper
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Creeper
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Witch
+[10:10:58] [Server thread/INFO]: Killed Creeper
+[10:10:58] [Server thread/INFO]: Killed Creeper
+[10:10:58] [Server thread/INFO]: Killed Witch
+[10:10:58] [Server thread/INFO]: Killed Witch
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Sheep
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Spider
+[10:10:58] [Server thread/INFO]: Killed Chicken
+[10:10:58] [Server thread/INFO]: Killed Enderman
+[10:10:58] [Server thread/INFO]: Killed Sheep
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Rabbit
+[10:10:58] [Server thread/INFO]: Killed Pig
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Pig
+[10:10:58] [Server thread/INFO]: Killed Pig
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Pig
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Rabbit
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Spider
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Spider
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Creeper
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Creeper
+[10:10:58] [Server thread/INFO]: Killed Creeper
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed item.item.seeds
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed item.tile.dirt.default
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Creeper
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Pig
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Pig
+[10:10:58] [Server thread/INFO]: Killed Pig
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Skeleton
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Zombie
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Squid
+[10:10:58] [Server thread/INFO]: Killed Bat
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Skeleton
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Bat
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:10:59] [Server thread/INFO]: Killed Squid
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.feather
+[10:11:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.string
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.stick
+[10:11:16] [Server thread/INFO]: Killed item.item.stick
+[10:11:16] [Server thread/INFO]: Killed item.item.glassBottle
+[10:11:16] [Server thread/INFO]: Killed item.item.glassBottle
+[10:11:16] [Server thread/INFO]: Killed item.item.sulphur
+[10:11:16] [Server thread/INFO]: Killed item.item.sulphur
+[10:11:16] [Server thread/INFO]: Killed item.item.sulphur
+[10:11:16] [Server thread/INFO]: Killed item.item.redstone
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.tile.cloth.brown
+[10:11:16] [Server thread/INFO]: Killed item.item.muttonRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.muttonRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.chickenRaw
+[10:11:16] [Server thread/INFO]: Killed item.tile.cloth.white
+[10:11:16] [Server thread/INFO]: Killed item.item.muttonRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.rabbitHide
+[10:11:16] [Server thread/INFO]: Killed item.item.rabbitRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.string
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.arrow
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.bone
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.rottenFlesh
+[10:11:16] [Server thread/INFO]: Killed item.item.sulphur
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:16] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:17] [Server thread/INFO]: Killed item.item.porkchopRaw
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.arrow
+[10:11:17] [Server thread/INFO]: Killed item.item.arrow
+[10:11:17] [Server thread/INFO]: Killed item.item.bone
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.arrow
+[10:11:17] [Server thread/INFO]: Killed item.item.arrow
+[10:11:17] [Server thread/INFO]: Killed item.item.bone
+[10:11:17] [Server thread/INFO]: Killed item.item.bone
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:17] [Server thread/INFO]: Killed item.item.dyePowder.black
+[10:11:25] [Server thread/INFO]: Stopping the server
+[10:11:25] [Server thread/INFO]: Stopping server
+[10:11:25] [Server thread/INFO]: Saving players
+[10:11:25] [Server thread/INFO]: Saving worlds
+[10:11:25] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[10:11:25] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[10:11:25] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[10:11:26] [Server Shutdown Thread/INFO]: Stopping server
+[10:11:26] [Server Shutdown Thread/INFO]: Saving players
+[10:11:26] [Server Shutdown Thread/INFO]: Saving worlds
+[10:11:26] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
+[10:11:26] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Nether
+[10:11:26] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/The End
