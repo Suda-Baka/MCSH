@@ -1,2 +1,0 @@
-#MOJANG EULA
-eula=true
