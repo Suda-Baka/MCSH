@@ -1,5 +1,9 @@
 # MCSH
 
+[English](
+
+<img src="https://github.com/Suda-Baka/MCSH/blob/main/mcsh.jpg" width = 50%>
+
 在Kindle上创建与运行Minecraft JAVA服务器。
 
 ## 先决条件
