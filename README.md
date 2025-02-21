@@ -1,10 +1,14 @@
 # MCSH
 
+[[English]](https://github.com/Suda-Baka/MCSH/edit/main/README_en.md)
+
+<img src="https://github.com/Suda-Baka/MCSH/blob/main/mcsh.jpg" width = 50%>
+
 在Kindle上创建与运行Minecraft JAVA服务器。
 
 ## 先决条件
 
-确保你的Kindle已进行了越狱。
+确保你的Kindle已进行了越狱并安装了`KUAL`。
 
 ## 安装
 
