@@ -23,11 +23,6 @@
 				"name": "Uninstall",
 				"priority": 999,
 				"action": "./bin/kterm/kterm -e 'mcsh --uninstall'"
-			},
-			{
-				"name": "1.8.9",
-				"priority": 2,
-				"action": "./bin/kterm/kterm -e 'mcsh -s 189'"
 			}
 			]
 		}
