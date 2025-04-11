@@ -26,7 +26,8 @@ You can visit the [Minecraft Wiki](https://minecraft.wiki/w/Tutorial:Setting_up_
 
 However, home routers generally use dynamic IP addresses, and using IP binding can fix the device’s IP. This feature can be set in the router’s backend.
 
->**Enabling port forwarding may expose your device to attacks, so please do not share your server’s IP with anyone you do not trust.**
+> [!NOTE]
+> Enabling port forwarding may expose your device to attacks, so please do not share your server’s IP with anyone you do not trust.
 
 ## Customization
 
