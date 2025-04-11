@@ -1,6 +1,6 @@
 # MCSH
 
-[[简体中文]](https://github.com/Suda-Baka/MCSH/edit/main/README.md)
+[[简体中文]](https://github.com/Suda-Baka/MCSH/blob/main/README.md)
 
 <img src="https://github.com/Suda-Baka/MCSH/blob/main/mcsh.jpg" width = 50%>
 
