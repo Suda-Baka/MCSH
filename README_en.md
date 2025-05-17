@@ -2,7 +2,7 @@
 
 [[简体中文]](https://github.com/Suda-Baka/MCSH/blob/main/README.md)
 
-<img src="https://github.com/Suda-Baka/MCSH/blob/main/mcsh.jpg" width = 50%>
+<p align="center"><img src="https://github.com/Suda-Baka/MCSH/blob/main/mcsh.png" width = 50%></p>
 
 Create and run a Minecraft JAVA server on Kindle.
 

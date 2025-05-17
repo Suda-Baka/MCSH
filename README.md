@@ -2,7 +2,7 @@
 
 [[English]](https://github.com/Suda-Baka/MCSH/blob/main/README_en.md)
 
-<img src="https://github.com/Suda-Baka/MCSH/blob/main/mcsh.jpg" width = 50%>
+<p align="center"><img src="https://github.com/Suda-Baka/MCSH/blob/main/mcsh.png" width = 50%></p>
 
 在Kindle上创建与运行Minecraft JAVA服务器。
 
